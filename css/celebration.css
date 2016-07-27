@@ -1,0 +1,157 @@
+@charset "utf-8";
+/*
+*description:1号店四周年庆
+*author:yaoyue;
+*date:2015/03/21;
+*/
+/*header-S*/
+.s-background{width:100%;height:100%;background:url("../images/bg-2.png") repeat;}
+.s-top{position:relative;width:100%;height:320px;background:url("../images/cele-bg.png") no-repeat center top;}
+.s-top .banner{position:absolute;left:50%;top:-1px;height:320px;overflow:hidden;margin-left:-476px;}
+.s-top .s-logo{width:423px;height:340px;position:absolute;left:50%;margin-left:-210px;background:url("../images/s-logo-24.png") no-repeat;_background:url("../images/s-logo-8.png") no-repeat;}
+.general-intro{margin:0 auto;width:1004px;height:266px;background:url("../images/parallel-sessions-bg-24.png") no-repeat center top;_background:url("../images/parallel-sessions-bg-8.png") no-repeat;}
+.general-intro img{margin-top:12px;}
+.general-intro .picture{margin-left:62px;}
+/*header-E*/
+
+/*免费领-S*/
+.s-free{margin:0 auto;width:980px;}
+.s-free .free-tit{position:relative;height:168px;background:url("../images/free-tit-bg-24.png") no-repeat bottom;_background:url("../images/free-tit-bg-8.png") no-repeat bottom;}
+.s-free .free-tit .free-logo{display:inline-block;position:absolute;left:162px;top:18px;width:144px;height:141px;background:url("../images/free-logo-24.png") no-repeat;_background:url("../images/free-logo-8.png") no-repeat;}
+.s-free .free-tit .free-txt{margin-top:50px;display:inline-block;margin-left:280px;width:360px;height:96px;background:url("../images/free-tit-24.png") no-repeat;_background:url("../images/free-tit-8.png") no-repeat;}
+.notice{margin:30px 0 0 0;padding-right:40px;width:269px;height:127px;background:url("../images/notice-24.png") no-repeat;_background:url("../images/notice-8.png") no-repeat;font-family:"simsun";font-size:12px;color:#ffF;line-height:20px;}
+.notice .notice-tit{padding:4px 0 0 109px;width:60px;height:16px;overflow:hidden;}
+.notice .notice-cont{height:80px;overflow:hidden;margin-top:6px;padding:6px 0 0 20px;cursor:pointer;}
+.notice .notice-cont li{width:245px;height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.s-free .free-cont{background:#fff;width:980px;overflow:hidden;}
+.s-free .free-cont ul{margin-top:-1px;margin-left:1px;width:980px;}
+.s-free .free-cont ul li{float:left;width:195px;height:270px;border-right:1px dashed #929292;border-top:1px dashed #929292;font-family:"microsoft yahei"}
+.s-free .free-cont ul li .free-pic{display:inline-block;width:155px;height:135px;margin:12px 0 0 20px;}
+.s-free .free-cont ul li .free-pro-tit{padding:15px 0 0 16px;font-size:14px;color:#424242;text-overflow: ellipsis;white-space:nowrap;overflow:hidden;}
+.s-free .free-cont ul li .free-pro-tit a:hover{color:#ad0000;}
+.s-free .free-cont ul li .free-price{padding:8px 0 0 16px;color:#ad0000;font-size:16px;text-decoration:line-through;}
+.s-free .free-cont ul li .free-btn{margin:10px 0 0 16px;display:inline-block;width:96px;height:32px;background:url("../images/free-btn8.jpg") no-repeat;}
+.s-free .free-cont ul li .privilege{margin-left:8px;display:inline-block;width:64px;height:22px;background:url("../images/privilege8.png") no-repeat;}
+/*免费领-E*/
+
+
+/*本周极品-S*/
+.s-week{margin:0 auto;width:980px;}
+.s-week .week-tit{position:relative;height:168px;background:url("../images/free-tit-bg-24.png") no-repeat bottom;_background:url("../images/free-tit-bg-8.png") no-repeat bottom;}
+.s-week .week-tit .week-txt{display:inline-block;margin:40px 0 0 224px;width:430px;height:110px;background:url("../images/thisweek-tit24.png") no-repeat;_background:url("../images/thisweek-tit8.png") no-repeat;}
+.s-week .week-cont{background:#fff;width:980px;overflow:hidden;padding-bottom:10px;}
+.s-week .week-cont .week-intro{height:260px;}
+.s-week .week-cont .week-intro .week-intro-left{padding:6px 0px 0 6px;width:190px;height:253px;background:#a90000;}
+.s-week .week-cont .week-intro .week-intro-right{margin-top:6px;padding-left:8px;width:768px;}
+.s-week .week-cont .week-intro .week-intro-right li{float:left;width:256px;height:126px;overflow:hidden}
+.s-week .week-cont .week-intro .week-intro-right li image{width:254px;height:124px;}
+.s-week .week-cont .week-product{width:978px;padding-left:2px;}
+.s-week .week-cont .week-product li{float:left;margin:4px 0 0 4px;width:188px;height:255px;border:1px solid #787878;background:#9c0206;}
+.s-week .week-cont .week-product li p{padding-top:6px;font-family: "microsoft yahei";font-size:20px;font-weight:bold;text-align:center;}
+.s-week .week-cont .week-product li p a{color:#faf9f2;}
+.s-week .week-cont .week-product li p a:hover{color:#f0b704;}
+/*本周极品-E*/
+
+/*限时抢购-S*/
+.s-time{margin:0 auto;width:980px;position:relative;background:url("../images/free-tit-bg-24.png") no-repeat bottom;}
+.s-time .time-tit{display:inline-block;position:relative;height:168px;background:url("../images/free-tit-bg-24.png") no-repeat bottom;_background:url("../images/free-tit-bg-8.png") no-repeat bottom;}
+.s-time .time-tit .time-date{display:inline-block;margin-left:70px;}
+.s-time .time-tit .time-date span{margin-top:80px;width:66px;height:72px;text-align:center;display:inline-block;color:#fff;background:url("../images/date-24_03.png") no-repeat;_background:url("../images/date-8_03.png") no-repeat;}
+.s-time .time-tit .time-date span strong{font-size:46px;}
+.s-time .time-tit .time-date span em{display:block;font-size:10px;}
+.s-time .time-tit .time-txt{margin:50px 0 0 20px;width:356px;height:110px;background:url("../images/best-tit-24.png") no-repeat;_background:url("../images/best-tit-8.png") no-repeat;}
+.s-time .time-nav{width:978px;height:53px;overflow:hidden;border:1px solid #ff0000;background:url("../images/time-nav.png") repeat-x;}
+.s-time .time-nav ul{width:980px;overflow:hidden;}
+.s-time .time-nav ul li{float:left;width:196px;cursor:pointer;font-family:"microsoft yahei";font-size:32px;line-height:53px;color:#fff;font-weight:bold;text-align:center;background:url("../images/time-nav-border.png")  no-repeat right}
+.s-time .time-nav ul .curr{background:url("../images/time-nav-curr.png")}
+.s-time .time-cont{width:980px;background:#890000;}
+.s-time .time-cont ul{margin-left:20px;}
+.s-time .time-cont ul li{position:relative;float:left;margin:10px 10px 0 0;width:178px;height:238px;background:#fff;border:1px solid #bd0f0f;text-align:center;font-family:"microsoft yahei";font-size:13px;}
+.s-time .time-cont ul img{margin-top:20px;}
+.s-time .time-cont ul li p{margin-top:26px;text-overflow: ellipsis;white-space:nowrap;overflow:hidden;}
+.s-time .time-cont ul li p a:hover{color:#ad0000;}
+.s-time .time-cont ul li div{position:absolute;bottom:-2px;left:0;}
+/*限时抢购-E*/
+
+/*美食分会场-S*/
+.meetingplace{width:100%;height:100%;background:#fff;}
+.same-mod{padding-bottom:12px;}
+.s-food{background:#fffcd7;}
+.same-mod .rel-mod{width:980px;margin:0 auto;}
+.s-food .rel-food .food-tit{width:995px;height:38px;background:url("../images/food-nav-24.png") no-repeat;_background:url("../images/food-nav-8.png") no-repeat;}
+.s-food .rel-food .food-cont{background:#fff9b3;}
+.same-mod .rel-mod .mod-tit span{display:inline-block;font-family:"microsoft yahei";font-size:23px;color:#fff;font-weight:bold;text-align:center;overflow:hidden;line-height:38px;}
+.same-mod .rel-mod .mod-tit .txt-1{width:380px;}
+.same-mod .rel-mod .mod-tit .txt-2{width:188px;}
+.same-mod .rel-mod .mod-tit .txt-3{width:202px;}
+.same-mod .rel-mod .mod-tit .txt-4{width:182px;}
+.same-mod .rel-mod .mod-cont .mod-intro{width:570px;overflow:hidden;}
+.s-food .rel-food .food-cont .food-intro ul li{color:#330505;border:1px dashed #664337;}
+.same-mod .rel-mod .mod-cont .mod-intro ul{width:550px;overflow:hidden;margin:10px 0 0 20px;}
+.same-mod .rel-mod .mod-cont .mod-intro ul li{float:left;width:265px;height:160px;margin-left:-1px;border-top:none;border-right:none;}
+.same-mod .rel-mod .mod-cont .mod-intro ul li .item{margin:26px 0 0 12px;}
+.same-mod .rel-mod .mod-cont .mod-intro ul li .item-tit{width:96px;height:66px;border-bottom:1px solid #461e18;font-family:"microsoft yahei";font-size:13px;line-height:20px;overflow:hidden;}
+.same-mod .rel-mod .mod-cont .mod-intro ul li .item-tit a{display:inline-block;}
+.s-food .rel-food .food-cont .food-intro ul li .item-tit a{color:#330505}
+.same-mod .rel-mod .mod-cont .mod-intro ul li .item-tit p{text-decoration:line-through;}
+.s-food .rel-food .food-cont .food-intro ul li h4{color:#ff9018;}
+.same-mod .rel-mod .mod-cont .mod-intro ul li h4{margin-top:4px;font-family:"arial";font-size:33px;font-weight:bold}
+.same-mod .rel-mod .mod-cont .mod-intro ul li h4 em{display:inline-block;font-size:13px;vertical-align:top;margin-top:4px;}
+/*美食分会场-E*/
+
+/*家电分会场-S*/
+.s-appliance{background:#ccecff;}
+.s-appliance .rel-appliance .appliance-tit{width:995px;height:38px;background:url("../images/appliance-nav-24.png") no-repeat;_background:url("../images/appliance-nav-8.png") no-repeat;}
+.s-appliance .appliance-cont{background:#b9d9ff;}
+.s-appliance .appliance-cont .appliance-intro ul li{color:#002e6a;border:1px dashed #2b60b0;}
+.s-appliance .appliance-cont .appliance-intro ul li a{color:#002e6a;}
+.s-appliance .appliance-cont .appliance-intro ul li h4{color:#1e5cae;}
+/*家电分会场-E*/
+
+
+/*美护分会场-S*/
+.s-beauty{background:#ffe8eb;}
+.s-beauty .rel-beauty .beauty-tit{width:995px;height:38px;background:url("../images/beauty-nav-24.png") no-repeat;_background:url("../images/beauty-nav-8.png") no-repeat;}
+.s-beauty .beauty-cont{background:#ffd8de;}
+.s-beauty .beauty-cont .beauty-intro ul li{color:#c21d33;border:1px dashed #f16073;}
+.s-beauty .beauty-cont .beauty-intro ul li a{color:#c21d33;}
+.s-beauty .beauty-cont .beauty-intro ul li h4{color:#f04e64;}
+/*美护分会场-E*/
+
+
+/*服装分会场-S*/
+.s-fashion{background:#f9e4ff;}
+.s-fashion .rel-fashion .fashion-tit{width:995px;height:38px;background:url("../images/fashion-nav-24.png") no-repeat;_background:url("../images/fashion-nav-8.png") no-repeat;}
+.s-fashion .fashion-cont{background:#f4deff;}
+.s-fashion .fashion-cont .fashion-intro ul li{color:#4e2163;border:1px dashed #a26fbb;}
+.s-fashion .fashion-cont .fashion-intro ul li a{color:#4e2163;}
+.s-fashion .fashion-cont .fashion-intro ul li h4{color:#9350b3;}
+/*服装分会场-E*/
+
+
+
+/*其他活动同步中-S*/
+.more-act{margin:0 auto;width:988px;}
+.more-act .more-tit{position:relative;margin:0 auto;width:674px;height:50px;background:url("../images/more-tit-bg.png") repeat-x bottom;}
+.more-act .more-tit img{position:absolute;left:50%;bottom:-20px;margin-left:-145px;}
+.more-act .more-cont{margin-top:43px;width:988px;background:#912533;overflow:hidden;}
+.more-act .more-cont ul{width:1000px;margin-left:10px;padding-bottom:10px;}
+.more-act .more-cont ul li{float:left;margin:10px 10px 0 0 ;width:317px;height:201px;}
+/*其他活动同步中-E*/
+
+
+/*侧栏悬浮-S*/
+.top{width:186px;position:fixed;left:50%;bottom:500px;margin-left:540px;_position:absolute;_bottom:auto; _margin-top:300px;_top:expression(eval(document.documentElement.scrollTop));_background-image:url(about:blank);_background-attachment:fixed;}
+.sidebar{position:relative;}
+.sidebar .sidebar-logo{position:relative;width:178px;height:179px;background:url("../images/sidebar-logo-24.png");_background:url("../images/sidebar-logo-8.png")}
+.sidebar .sidebar-logo .sidebar-txt{position:absolute;left:24px;top:16px;width:127px;height:127px;background:url("../images/sidebar-txt-24.png") no-repeat;_background:url("../images/sidebar-txt-8.png")}
+.sidebar .side-bot{position:absolute;top:142px;background:url("../images/top-24.png") no-repeat;width:179px;height:363px; _background:url("../images/top-8.png") no-repeat ;}
+.side-bot a{display:inline-block;width:179px;height: 34px;}
+.posi-free{margin-top:34px;}
+.posi-time{margin-top: 2px;}
+.posi-five{margin-top:4px;}
+.posi-food{margin-top:20px;}
+.posi-appliance{margin-top:4px;}
+.posi-fashion{margin-top:10px;}
+.side-bot .re-top{bheight:18px;margin-top:10px;}
+/*侧栏悬浮-E*/
